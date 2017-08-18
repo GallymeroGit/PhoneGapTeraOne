@@ -1,0 +1,61 @@
+{
+  "_from": "cordova-plugin-background-fetch@4.0.0",
+  "_id": "cordova-plugin-background-fetch@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Njvj4QcOlHD5iQSiuOj1bLRR15I=",
+  "_location": "/cordova-plugin-background-fetch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-background-fetch@4.0.0",
+    "name": "cordova-plugin-background-fetch",
+    "escapedName": "cordova-plugin-background-fetch",
+    "rawSpec": "4.0.0",
+    "saveSpec": null,
+    "fetchSpec": "4.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-background-fetch/-/cordova-plugin-background-fetch-4.0.0.tgz",
+  "_shasum": "363be3e1070e9470f98904a2b8e8f56cb451d792",
+  "_spec": "cordova-plugin-background-fetch@4.0.0",
+  "_where": "F:\\PhoneGap\\PhoneGapTaxi\\node_modules",
+  "author": {
+    "name": "Chris Scott, Transistor Software",
+    "email": "chris@transistorsoft.com"
+  },
+  "bugs": {
+    "url": "https://github.com/transistorsoft/react-native-background-fetch/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-background-fetch",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova implementation of iOS Background Fetch API",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/transistorsoft/react-native-background-fetch",
+  "keywords": [
+    "cordova",
+    "background",
+    "fetch"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-background-fetch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transistorsoft/cordova-plugin-background-fetch.git"
+  },
+  "version": "4.0.0"
+}
