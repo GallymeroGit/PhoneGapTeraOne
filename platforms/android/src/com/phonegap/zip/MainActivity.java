@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.phonegap.taxi;
+package com.phonegap.zip;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

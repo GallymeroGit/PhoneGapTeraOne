@@ -15,9 +15,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <script>
    
-    </script>
+        <script type="text/javascript" charset="utf-8">
+
+            function callAnothePage()
+            {
+                window.location = "test.html";
+            }
+
+        </script>
+   
     <title>Hello World</title>
 </head>
 
@@ -33,6 +40,7 @@
         
             <input type="submit" value="Login"/>
         </form>
+        <button name="buttonClick" onclick="callAnothePage()">Click Me!</button>
     </div>
     
 </body>
