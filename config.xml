@@ -15,7 +15,7 @@
     </author>
 
     <!-- PAGE DE DEMARRAGE-->
-    <content src="index.html" />
+    <content src="index.html" />gdfgdfgdfgdfgfdgdfgfg
 
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
