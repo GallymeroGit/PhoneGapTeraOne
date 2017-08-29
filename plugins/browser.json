@@ -66,6 +66,9 @@
         },
         "cordova-background-geolocation-lt": {
             "PACKAGE_NAME": "com.phonegap.taxi"
+        },
+        "cordova-plugin-googlemaps": {
+            "PACKAGE_NAME": "com.phonegap.zip"
         }
     },
     "dependent_plugins": {

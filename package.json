@@ -30,6 +30,9 @@
             "cordova-plugin-whitelist": {},
             "cordova-background-geolocation-lt": {
                 "LICENSE": "YOUR_LICENSE_KEY"
+            },
+            "cordova-plugin-googlemaps": {
+                "API_KEY_FOR_ANDROID": ""
             }
         }
     },
@@ -49,6 +52,7 @@
         "cordova-plugin-file-transfer": "~1.5.0",
         "cordova-plugin-geolocation": "~2.1.0",
         "cordova-plugin-globalization": "~1.0.3",
+        "cordova-plugin-googlemaps": "^1.4.5",
         "cordova-plugin-inappbrowser": "~1.3.0",
         "cordova-plugin-media": "~2.2.0",
         "cordova-plugin-media-capture": "~1.2.0",

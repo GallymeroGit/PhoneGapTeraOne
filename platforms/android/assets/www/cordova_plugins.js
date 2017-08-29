@@ -533,6 +533,14 @@ module.exports = [
         "clobbers": [
             "window.BackgroundGeolocation"
         ]
+    },
+    {
+        "id": "cordova-plugin-googlemaps.cordova-plugin-googlemaps",
+        "file": "plugins/cordova-plugin-googlemaps/www/googlemaps-cdv-plugin.js",
+        "pluginId": "cordova-plugin-googlemaps",
+        "clobbers": [
+            "cordova-plugin-googlemaps"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -560,7 +568,8 @@ module.exports.metadata =
     "cordova-plugin-vibration": "2.1.5",
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-background-fetch": "4.0.0",
-    "cordova-background-geolocation-lt": "2.8.0"
+    "cordova-background-geolocation-lt": "2.8.0",
+    "cordova-plugin-googlemaps": "1.4.5"
 };
 // BOTTOM OF METADATA
 });
