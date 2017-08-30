@@ -1,0 +1,65 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-background-geolocation-lt": {
+            "BACKGROUND_MODE_LOCATION": "<string>location</string>",
+            "LOCATION_ALWAYS_USAGE_DESCRIPTION": "Background location-tracking is required",
+            "LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION": "Background location-tracking is required",
+            "MOTION_USAGE_DESCRIPTION": "Using the accelerometer increases battery-efficiency by intelligently toggling location-tracking only when the device is detected to be moving",
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-background-fetch": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-cocoalumberjack": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.phonegap.zip"
+        }
+    }
+}
