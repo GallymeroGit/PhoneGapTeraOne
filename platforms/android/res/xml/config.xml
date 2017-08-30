@@ -65,7 +65,18 @@
     <feature name="BackgroundGeolocation">
         <param name="android-package" value="com.transistorsoft.cordova.bggeo.CDVBackgroundGeolocation" />
     </feature>
-    <name>PhoneGapTaxi</name>
+    <feature name="GoogleMaps">
+        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
+        <param name="onload" value="true" />
+        <param name="onreset" value="true" />
+    </feature>
+    <feature name="External">
+        <param name="android-package" value="plugin.google.maps.External" />
+    </feature>
+    <feature name="Geocoder">
+        <param name="android-package" value="plugin.google.maps.MyGeocoder" />
+    </feature>
+    <name>PhoneGapTeraOne</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
@@ -102,15 +113,4 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <feature name="GoogleMaps">
-        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
-        <param name="onload" value="true" />
-        <param name="onreset" value="true" />
-    </feature>
-    <feature name="External">
-        <param name="android-package" value="plugin.google.maps.External" />
-    </feature>
-    <feature name="Geocoder">
-        <param name="android-package" value="plugin.google.maps.MyGeocoder" />
-    </feature>
 </widget>
